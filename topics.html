@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Topics | Method of Mind</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Method of Mind</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="topics.html">Topics</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>Psychology Topics</h1>
+    <p class="lead">
+      Start with these three foundations. Each topic will grow into a set of clean, human-written learning resources.
+    </p>
+
+    <section class="grid">
+      <article class="topic-card">
+        <h2>1) Basic Research Methods</h2>
+        <p>Study design, variables, reliability/validity, ethics, sampling, and how to read studies.</p>
+        <a class="btn" href="#">Open topic</a>
+        <p class="note">(Link this later to: research-methods.html)</p>
+      </article>
+
+      <article class="topic-card">
+        <h2>2) Biopsychology</h2>
+        <p>The nervous system, neurons, brain structures, neurotransmitters, and how biology shapes behavior.</p>
+        <a class="btn" href="#">Open topic</a>
+        <p class="note">(Link this later to: biopsychology.html)</p>
+      </article>
+
+      <article class="topic-card">
+        <h2>3) Personality Psychology</h2>
+        <p>Trait models, psychodynamic ideas, humanistic views, social-cognitive theories, and assessment.</p>
+        <a class="btn" href="#">Open topic</a>
+        <p class="note">(Link this later to: personality.html)</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Method of Mind</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
