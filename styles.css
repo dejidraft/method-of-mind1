@@ -9,9 +9,7 @@
 
 * { box-sizing: border-box; }
 
-body {
-  background: lightpink !important;
-}
+
 
 body {
   margin: 0;
@@ -109,4 +107,5 @@ h1 { line-height: 1.2; margin-top: 0; }
   background: var(--card);
   color: var(--muted);
 }
+
 
