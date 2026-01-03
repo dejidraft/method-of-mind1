@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 
-<p>Click the button below to blow out the candles!</p>
+<body>
+	<p>
+		Click the button below to blow out the candles!
+	</p>
 
-<button class="press-button">Press me</button>
-
+	<button class="press-button">
+		Press me
+	</button>
+</body>
